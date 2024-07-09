@@ -35,7 +35,7 @@
 			<h3>Software Eng. &<br>UG Researcher</h3>
 			<div id="button-container">
 				<a href="https://www.linkedin.com/in/lryanle/" target="_blank" data-tooltip="LinkedIn"
-					data-tooltip-persistent>
+				   data-tooltip-persistent>
 					<i id="linkedin" class="fab fa-linkedin-in"></i>
 				</a>
 				<a href="https://www.github.com/lryanle" target="_blank" data-tooltip="Github" data-tooltip-persistent>
@@ -48,157 +48,183 @@
 					<i id="resume" class="far fa-file-pdf"></i>
 				</a>
 				<!-- <a href="./resumes/RyanLahlouHS_03_30_22.pdf" target="_blank">
-					<i id="resume-old" class="far fa-file"></i>
-				</a> -->
+				<i id="resume-old" class="far fa-file"></i>
+			</a> -->
 			</div>
 		</div>
 
 		<hr id="vertical-divider">
 
-		<div id="info-card">
-			<div id="education">
-				<h2>Education</h2>
-				<div id="row">
-					<div id="col1">
-						<div id="img-title">
-							<img src="./assets/icons/uta2.png" class="icon" />
-							<h3>UT Arlington</h3>
-						</div>
-						<h4 id="sub-img-title">H.BS, Comp. Sci.</h4>
-					</div>
-					<div id="col2">
-						<h3>2021 - 2024</h3>
-					</div>
-				</div>
-				<div id="row">
-					<div id="col1">
-						<div id="img-title">
-							<img src="./assets/icons/mhs.png" class="icon" />
-							<h3>Moore High School</h3>
-						</div>
-						<h4 id="sub-img-title">Valedictorian (1/573)</h3>
-					</div>
-					<div id=col2>
-						<h3>2017 - 2021</h3>
-					</div>
-				</div>
-			</div>
-			<div id="experiences">
-				<h2>Experience</h2>
-				<div id="row">
-					<div id="col1">
-						<div id="img-title">
-							<img src="./assets/icons/jpmc3.png" class="icon" />
-							<h3>JPMorgan Chase</h3>
-						</div>
-						<h4 id="sub-img-title">Software Eng. Intern</h4>
-					</div>
-					<div id="col2">
-						<h3>Summer 2024</h3>
-					</div>
-				</div>
-				<div id="row">
-					<div id="col1">
-						<div id="img-title">
-							<img src="./assets/icons/mlh.png" class="icon" />
-							<h3>Major League Hacking</h3>
-						</div>
-						<h4 id="sub-img-title">MLH Coach (Event Rep)</h4>
-					</div>
-					<div id="col2">
-						<h3>2024 - Current</h3>
-					</div>
-				</div>
-				<div id="row">
-					<div id="col1">
-						<div id="img-title">
-							<img src="./assets/icons/jpmc3.png" class="icon" />
-							<h3>JPMorgan Chase</h3>
-						</div>
-						<h4 id="sub-img-title">Software Eng. Intern</h4>
-					</div>
-					<div id="col2">
-						<h3>Summer 2023</h3>
-					</div>
-				</div>
-				<div id="row">
-					<div id="col1">
-						<div id="img-title">
-							<img src="./assets/icons/ibm.png" class="icon" />
-							<h3>IBM</h3>
-						</div>
-						<h4 id="sub-img-title">Acc. Hardware Intern</h4>
-					</div>
-					<div id="col2">
-						<h3>Summer 2022</h3>
-					</div>
-				</div>
-				<div id="row">
-					<div id="col1">
-						<div id="img-title">
-							<img src="./assets/icons/nsf.png" class="icon" />
-							<h3>NSF</h3>
-						</div>
-						<h4 id="sub-img-title">REU Researcher</h4>
-					</div>
-					<div id="col2">
-						<h3>Summer 2022</h3>
-					</div>
-				</div>
-			</div>
-			<div id="extracurriculars">
-				<h2>Leadership</h2>
-				<div id="row">
-					<div id="col1">
-						<div id="img-title">
-							<img src="./assets/icons/acm3.png" class="icon" />
-							<h3>ACM</h3>
-						</div>
-						<h4 id="sub-img-title">Founder & President</h4>
-					</div>
-					<div id="col2">
-						<h3>🥸</h3>
-					</div>
-				</div>
-				<div id="row">
-					<div id="col1">
-						<div id="img-title">
-							<img src="./assets/icons/hackuta.jpeg" class="icon" />
-							<h3>HackUTA</h3>
-						</div>
-						<h4 id="sub-img-title">Founder & Exec. Director</h4>
-					</div>
-					<div id="col2">
-						<h3>🤠</h3>
-					</div>
-				</div>
-				<div id="row">
-					<div id="col1">
-						<div id="img-title">
-							<img src="./assets/icons/gdsc.png" class="icon" />
-							<h3>Google DSC</h3>
-						</div>
-						<h4 id="sub-img-title">Treasurer</h4>
-					</div>
-					<div id="col2">
-						<h3>😊</h3>
-					</div>
-				</div>
-				<div id="row">
-					<div id="col1">
-						<div id="img-title">
-							<img src="./assets/icons/saseuta2.png" class="icon" />
-							<h3>SASE</h3>
-						</div>
-						<h4 id="sub-img-title">Officer</h4>
-					</div>
-					<div id="col2">
-						<h3>😳</h3>
-					</div>
-				</div>
-			</div>
+		<!--Get the samples from https://www.adobe.com/go/pdfembedapi_samples-->
+		<!DOCTYPE html>
+		<html>
+		<head>
+			<title>Adobe Acrobat Services PDF Embed API Sample</title>
+			<meta charset="utf-8" />
+			<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+			<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1" />
+		</head>
+		<body style="margin: 0px">
+			<div id="adobe-dc-view"></div>
+			<script src="https://acrobatservices.adobe.com/view-sdk/viewer.js"></script>
+			<script type="text/javascript">
+				document.addEventListener("adobe_dc_view_sdk.ready", function () {
+                    var adobeDCView = new AdobeDC.View({ clientId: "738b3b170bfa4351ad23f8ce2b047cc3", divId: "adobe-dc-view" });
+					adobeDCView.previewFile(
+						{
+							content: { location: { url: "https://acrobatservices.adobe.com/view-sdk-demo/PDFs/Bodea Brochure.pdf" } },
+							metaData: { fileName: "Bodea Brochure.pdf" }
+						});
+				});
+			</script>
+		</body>
+	</html>
 
+
+	<div id="info-card">
+		<div id="education">
+			<h2>Education</h2>
+			<div id="row">
+				<div id="col1">
+					<div id="img-title">
+						<img src="./assets/icons/uta2.png" class="icon" />
+						<h3>UT Arlington</h3>
+					</div>
+					<h4 id="sub-img-title">H.BS, Comp. Sci.</h4>
+				</div>
+				<div id="col2">
+					<h3>2021 - 2024</h3>
+				</div>
+			</div>
+			<div id="row">
+				<div id="col1">
+					<div id="img-title">
+						<img src="./assets/icons/mhs.png" class="icon" />
+						<h3>Moore High School</h3>
+					</div>
+					<h4 id="sub-img-title">Valedictorian (1/573)</h3>
+				</div>
+				<div id=col2>
+					<h3>2017 - 2021</h3>
+				</div>
+			</div>
 		</div>
+		<div id="experiences">
+			<h2>Experience</h2>
+			<div id="row">
+				<div id="col1">
+					<div id="img-title">
+						<img src="./assets/icons/jpmc3.png" class="icon" />
+						<h3>JPMorgan Chase</h3>
+					</div>
+					<h4 id="sub-img-title">Software Eng. Intern</h4>
+				</div>
+				<div id="col2">
+					<h3>Summer 2024</h3>
+				</div>
+			</div>
+			<div id="row">
+				<div id="col1">
+					<div id="img-title">
+						<img src="./assets/icons/mlh.png" class="icon" />
+						<h3>Major League Hacking</h3>
+					</div>
+					<h4 id="sub-img-title">MLH Coach (Event Rep)</h4>
+				</div>
+				<div id="col2">
+					<h3>2024 - Current</h3>
+				</div>
+			</div>
+			<div id="row">
+				<div id="col1">
+					<div id="img-title">
+						<img src="./assets/icons/jpmc3.png" class="icon" />
+						<h3>JPMorgan Chase</h3>
+					</div>
+					<h4 id="sub-img-title">Software Eng. Intern</h4>
+				</div>
+				<div id="col2">
+					<h3>Summer 2023</h3>
+				</div>
+			</div>
+			<div id="row">
+				<div id="col1">
+					<div id="img-title">
+						<img src="./assets/icons/ibm.png" class="icon" />
+						<h3>IBM</h3>
+					</div>
+					<h4 id="sub-img-title">Acc. Hardware Intern</h4>
+				</div>
+				<div id="col2">
+					<h3>Summer 2022</h3>
+				</div>
+			</div>
+			<div id="row">
+				<div id="col1">
+					<div id="img-title">
+						<img src="./assets/icons/nsf.png" class="icon" />
+						<h3>NSF</h3>
+					</div>
+					<h4 id="sub-img-title">REU Researcher</h4>
+				</div>
+				<div id="col2">
+					<h3>Summer 2022</h3>
+				</div>
+			</div>
+		</div>
+		<div id="extracurriculars">
+			<h2>Leadership</h2>
+			<div id="row">
+				<div id="col1">
+					<div id="img-title">
+						<img src="./assets/icons/acm3.png" class="icon" />
+						<h3>ACM</h3>
+					</div>
+					<h4 id="sub-img-title">Founder & President</h4>
+				</div>
+				<div id="col2">
+					<h3>🥸</h3>
+				</div>
+			</div>
+			<div id="row">
+				<div id="col1">
+					<div id="img-title">
+						<img src="./assets/icons/hackuta.jpeg" class="icon" />
+						<h3>HackUTA</h3>
+					</div>
+					<h4 id="sub-img-title">Founder & Exec. Director</h4>
+				</div>
+				<div id="col2">
+					<h3>🤠</h3>
+				</div>
+			</div>
+			<div id="row">
+				<div id="col1">
+					<div id="img-title">
+						<img src="./assets/icons/gdsc.png" class="icon" />
+						<h3>Google DSC</h3>
+					</div>
+					<h4 id="sub-img-title">Treasurer</h4>
+				</div>
+				<div id="col2">
+					<h3>😊</h3>
+				</div>
+			</div>
+			<div id="row">
+				<div id="col1">
+					<div id="img-title">
+						<img src="./assets/icons/saseuta2.png" class="icon" />
+						<h3>SASE</h3>
+					</div>
+					<h4 id="sub-img-title">Officer</h4>
+				</div>
+				<div id="col2">
+					<h3>😳</h3>
+				</div>
+			</div>
+		</div>
+
+	</div>
 	</div>
 
 	<div id="background"></div>
