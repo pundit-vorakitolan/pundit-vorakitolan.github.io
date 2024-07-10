@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: 'bembo_stdregular';
-    src: url('https://pundit-vorakitolan.github.io/css/fonts/bembostd-webfont.woff2') format('woff2'), 
-         url('https://pundit-vorakitolan.github.io/css/fonts/bembostd-webfont.woff') format('woff');
+    src: url('https://pundit-vorakitolan.github.io/fonts/bembostd-webfont.woff2') format('woff2'), 
+         url('https://pundit-vorakitolan.github.io/fonts/bembostd-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -15,8 +15,8 @@
 
 @font-face {
     font-family: 'bembo_stdsemibold';
-    src: url('https://pundit-vorakitolan.github.io/css/fonts/bembostd-semibold-webfont.woff2') format('woff2'), 
-         url('https://pundit-vorakitolan.github.io/css/fonts/bembostd-semibold-webfont.woff') format('woff');
+    src: url('https://pundit-vorakitolan.github.io/fonts/bembostd-semibold-webfont.woff2') format('woff2'), 
+         url('https://pundit-vorakitolan.github.io/fonts/bembostd-semibold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -26,8 +26,8 @@
 
 @font-face {
     font-family: 'bembosc';
-    src: url('https://pundit-vorakitolan.github.io/css/fonts/bembo_sc-webfont.woff2') format('woff2'), 
-        url('https://pundit-vorakitolan.github.io/css/fonts/bembo_sc-webfont.woff') format('woff');
+    src: url('https://pundit-vorakitolan.github.io/fonts/bembo_sc-webfont.woff2') format('woff2'), 
+        url('https://pundit-vorakitolan.github.io/fonts/bembo_sc-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
