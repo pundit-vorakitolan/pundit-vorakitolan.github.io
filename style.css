@@ -31,3 +31,10 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'bembo_stdbold';
+    src: url('https://pundit-vorakitolan.github.io/fonts/bembostd-bold.woff2') format('woff2'), url('https://pundit-vorakitolan.github.io/fonts/bembostd-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
