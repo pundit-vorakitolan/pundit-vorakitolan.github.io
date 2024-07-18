@@ -64,7 +64,7 @@
 
         .container {
             width: 100%;
-          /*  max-width: 1050px;*/
+            /*  max-width: 1050px;*/
             background-color: #fff;
             padding: 0px;
             display: flex;
@@ -85,7 +85,7 @@
             width: 10%;
         }*/
 
-     /*   .divider {
+        /*   .divider {
             position: absolute;
             top: 10%;
             bottom: 10%;
@@ -130,7 +130,24 @@
             }
     </style>
 </head>
-<body>
+
+<body
+<div id="adobe-dc-view"></div>
+<script src="https://acrobatservices.adobe.com/view-sdk/viewer.js"></script>
+<script type="text/javascript">
+    document.addEventListener("adobe_dc_view_sdk.ready", function () {
+        var adobeDCView = new AdobeDC.View({ clientId: "738b3b170bfa4351ad23f8ce2b047cc3", divId: "adobe-dc-view" });
+        adobeDCView.previewFile(
+            {
+                content: { location: { url: "https://pundit-vorakitolan.github.io/PunditVorakitolan_Resume.pdf" } },
+                metaData: {
+                    fileName: "Pundit_Vorakitolan_Resume"
+                }
+            });
+    });
+</script>
+    </body>
+<!--<body>
     <div class="container">
         <div class="divider"></div>
         <div class="right-column column">
@@ -164,6 +181,6 @@
             </div>
         </div>
     </div>
-</body>
+</body>-->
 </html>
 
