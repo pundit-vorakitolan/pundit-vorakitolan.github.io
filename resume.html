@@ -64,7 +64,36 @@
             background-color: #fff;
         }
 
- 
+        .container {
+            width: 100%;
+            max-width: 3000vh;
+            background-color: #fff;
+            padding: 0vh;
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+        }
+
+        .column {
+            flex: 1;
+            padding: 0px;
+        }
+
+        		.left-column {
+            width: 100%;
+        }
+
+        .right-column {
+            width: 10%;
+        }
+
+        .divider {
+            position: absolute;
+            top: 0%;
+            bottom: 0%;
+            left: 51%;
+            border-left: 2px solid #ccc;
+        }
 
         h1, h2, h3 {
             margin: 0;
@@ -72,29 +101,29 @@
         }
 
         .section {
-            margin-bottom: 20px;
+            margin-bottom: 0px;
         }
 
             .section h1 {
-                padding-top: 1vh;
-                padding-bottom: 10px;
+                padding-top: 0vh;
+                padding-bottom: 0px;
                 font-size: 4vh;
             }
 
             .section h2 {
-                padding-bottom: 20px;
+                padding-bottom: 0px;
                 font-family: bembo_stdsemibold;
                 font-size: .9em;
             }
 
             .section h3 {
-                padding-top: 5vh;
-                padding-bottom: 5px;
+                padding-top: 0vh;
+                padding-bottom: 0px;
                 font-size: 1em;
             }
 
             .section h4 {
-                text-indent: 2em;
+                text-indent: 0em;
                 padding-bottom: 0px;
                 font-family: "bembo_stdsemibold";
                 font-size: 1em;
@@ -108,20 +137,23 @@
             }
 
             .section p {
-                padding-top: 12vh;
+                padding-top: 0vh;
                 font-size: 1em;
             }
 
             .section a {
-                padding-bottom: 10px;
+                padding-bottom: 0px;
                 font-size: 1em;
             }
     </style>
 </head>
 <body>
-    <body>
-    </body>
-    <div id="adobe-dc-view"></div>
+    <iframe src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://pundit-vorakitolan.github.io/resume.pdf#toolbar=0&scrollbar=0"
+            frameBorder="0"
+            scrolling="auto"
+            height="800px"
+            width="100%"></iframe>
+    <!--<div id="adobe-dc-view"></div>
     <script src="https://acrobatservices.adobe.com/view-sdk/viewer.js"></script>
     <script type="text/javascript">
         document.addEventListener("adobe_dc_view_sdk.ready", function () {
@@ -134,9 +166,7 @@
                     }
                 });
         });
-    </script>
-</body>
-</html>
+    </script>-->
 </body>
 </html>
 
