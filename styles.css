@@ -51,13 +51,13 @@ body {
     display: flex;
     justify-content: left;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
     background-color: #fff;
 }
 
 body {
     background-color: #fff;
-    padding: 50px;
+    padding: 0px;
     font: 13px bembo_stdsemibold;
     color: #212121;
     font-weight: 400;
@@ -65,19 +65,26 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color:#212121;
-  margin:0 0 20px;
+  margin:0 0 10px;
 }
 
 p, ul, ol, table, pre, dl {
   margin:0 0 20px;
 }
 
-h1, h2, h3 {
+p {
+    line-height: 1.1;
+    color: #393939;
+    font-size: 18px;
+}
+
+h2, h3 {
   line-height:1.1;
 }
 
 h1 {
-  font-size:36px;
+  line-height:1.2;
+  font-size: 36px;
   font-weight: 500;
 }
 
@@ -88,12 +95,17 @@ h2 {
 }
 
 h3, h4, h5, h6 {
-  color:#494949;
-  font-weight: 500;
+   color: #393939;
+   font-weight: 500;
 }
 
 h4 {
     font-family: "bembo_stdsemibold";
+}
+
+h5 {
+    margin: 0 0 0px;
+    font-size: 13px;
 }
 
 a {
@@ -166,8 +178,7 @@ img {
 }
 
 header {
-    padding-top: 100px;
-    width: 350px;
+    width: 300px;
     float: left;
     position: fixed;
     -webkit-font-smoothing: subpixel-antialiased;
@@ -233,9 +244,10 @@ header ul a strong {
 }
 
 section {
-  width:450px;
-  float:right;
-  padding-bottom:50px;
+    width: 520px;
+    float: right;
+    padding-bottom: 50px;
+    justify-content: right;
 }
 
 small {
