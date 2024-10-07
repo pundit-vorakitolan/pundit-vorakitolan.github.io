@@ -92,11 +92,20 @@ h2 {
   color:#393939;
   font-weight: 500;
   font-family: bembo_stdsemibold;
+  font-size: 28px;
+}
+
+h3 {
+    color: #777;
+    font-weight: 500;
+    font-family: bembo_stdsemibold;
+    font-size: 20px;
 }
 
 h3, h4, h5, h6 {
-   color: #393939;
-   font-weight: 500;
+    color: #393939;
+    font-family: bembo_stdsemibold;
+    font-weight: 500;
 }
 
 h4 {
