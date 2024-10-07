@@ -58,19 +58,20 @@
                 In applications such as space-based weather radiometry, reflectarrays are an attractive alternative to traditional phased array antennas.
                 In addition to their lower size, weight, and power requirements, it is possible to achieve higher gain and resolution by increasing the
                 number of elements in the reflectarray. The Configurable Reflectarray for Electronic Wideband Scanning Radiometry (CREWSR), in development
-                at MIT Lincoln Laboratory, is one such example of a large reflectarray. CREWSR allows tri-band sensing by interleaving
-                lattices of antenna elements, one for each of the three frequency bands it operates in. The three lattices each contain 120,000 to 480,000
+                at MIT Lincoln Laboratory, is one such example of a large reflectarray. CREWSR's three interleaving element lattices each contain 120,000 to 480,000
                 elements (connected to separate reflective 4-bit phase shifters), that enable independent beamsteering on each band. However, the inherent
                 size of CREWSR and other very large reflectarrays present a challenge in implementing optimization and synthesis procedures.
-
+            </p>
+            <p>
                 Widely used optimization and synthesis algorithms were designed for much smaller arrays; computation burden tends to scale dramatically
                 as the number of array elements increase. In addition, reflectarrays are restricted to phase-only synthesis -- each of CREWSR's lattices
                 are illuminated by separate horn antennas -- which limits the algorithms that can be used. For these reasons, these algorithms tend to be
                 computationally impractical for large reflectarrays.
-
+            </p>
+            <p>
                 I designed and implemented an algorithm to quickly sythesize element excitations for very large reflectarrays by exploiting properties of
-                the Fourier transform. Applying this method to CREWSR, I was able to increase beam efficiency from 89% to 93% - a significant improvement,
-                as weather radiometry effectively measures atmospheric noise. Read the full paper on <a href="https://ieeexplore.ieee.org/document/10687215">IEEE Xplore</a>.
+                the Fourier transform. Applying this method to CREWSR, I was able to increase beam efficiency from 89% to 93% in a matter of seconds, not weeks or months. 
+                Read the full paper on <a href="https://ieeexplore.ieee.org/document/10687215">IEEE Xplore</a>.
             </p>
 
         </section>
